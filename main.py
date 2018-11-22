@@ -68,6 +68,7 @@ if choice == '3':
   cal("yum install nmap")
   cal("yum install git")
   cal("mkdir files")
+  cal("pip install sockets")
   cal("cd files && git clone https://github.com/dotfighter/torshammer")
   cal("cd files && git clone https://github.com/jseidl/GoldenEye")
  
