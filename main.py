@@ -79,6 +79,7 @@ if choice == '3':
   cal("apt-get install nmap")
   cal("apt-get install git")
   cal("mkdir files")
+  cal("pip install sockets")
   cal("cd files && git clone https://github.com/dotfighter/torshammer")
   cal("cd files && git clone https://github.com/jseidl/GoldenEye")
   
