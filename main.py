@@ -4,6 +4,7 @@ import socket
 
 def cal(cmd):
 	subprocess.call(cmd, shell=True)
+cal("clear")
 print ("USE NUMBER KEY TO SELECT OPTION")
 print ("")
 print ("1 = NMAP")
