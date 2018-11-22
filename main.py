@@ -9,7 +9,6 @@ print ("USE NUMBER KEY TO SELECT OPTION")
 print ("")
 print ("1 = NMAP")
 print ("2 = DDOS")
-print ("3 = DOWNLOAD SCRIPTS")
 print ("")
 choice = raw_input("[root@main]#")
 
