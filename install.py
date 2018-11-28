@@ -19,6 +19,7 @@ if choice == '1':
  cal("cd files && git clone https://github.com/dotfighter/torshammer")
  cal("cd files && git clone https://github.com/jseidl/GoldenEye")
  cal("cd files && git clone https://github.com/gkbrk/slowloris")
+ cal("cd files && git clone https://github.com/thurties/udp")
  cal("clear")
  print ("ALL FILES INSTALLED AND READY TO GO!")
 if choice == '2':
@@ -32,5 +33,6 @@ if choice == '2':
   cal("cd files && git clone https://github.com/dotfighter/torshammer")
   cal("cd files && git clone https://github.com/jseidl/GoldenEye")
   cal("cd files && git clone https://github.com/gkbrk/slowloris")
+  cal("cd files && git clone https://github.com/thurties/udp")
   cal("clear")
   print("ALL FILES INSTALLED AND READY TO GO!")
