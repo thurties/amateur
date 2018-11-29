@@ -70,6 +70,6 @@ if choice == '2':
 	if choice == '5':
 		ip = raw_input("Enter Domain: ")
 		pt = raw_input("Enter Port: ")
-		cal("cd files/udp && python tcp.py "+ ip +" "+ pt +"")
+		cal("cd files/udp && python tcp.py "+ ip +" -p "+ pt +"")
 exit
 			       
