@@ -11,9 +11,9 @@ choice = raw_input("[root@admin]#")
 if choice == '1':
  print("DOWNLOADING SCRIPTS!")
 
- cal("yum update")
- cal("yum install nmap")
- cal("yum install git")
+ cal("yum update -y")
+ cal("yum install nmap -y")
+ cal("yum install git -y")
  cal("mkdir files")
  cal("pip install sockets")
  cal("cd files && git clone https://github.com/dotfighter/torshammer")
@@ -25,9 +25,9 @@ if choice == '1':
 if choice == '2':
   print("DOWNLOADING SCRIPTS!")
 
-  cal("apt-get update")
-  cal("apt-get install nmap")
-  cal("apt-get install git")
+  cal("apt-get update -y")
+  cal("apt-get install nmap -y")
+  cal("apt-get install git -y")
   cal("mkdir files")
   cal("pip install sockets")
   cal("cd files && git clone https://github.com/dotfighter/torshammer")
